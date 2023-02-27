@@ -20,7 +20,26 @@
 }
 
 
+@media (max-width: 768px){
+    .titulo__p {
+        font-size: 1.6rem;
+    }
+    .titulo__m {
+        font-size: 2.4rem;
+    }
+    .titulo__g {
+        font-size: 2.4rem;
+    }
 
 
+    .texto__p {
+        font-size: .8rem;
+    }
+    .texto__m {
+        font-size: 1rem;
+    }
+    .texto__g {
+        font-size: 1.6rem;
+    }
 
-
+}

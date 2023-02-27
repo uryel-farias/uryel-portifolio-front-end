@@ -1,9 +1,12 @@
 .menu{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1rem 3rem;
     align-items: center;
     box-shadow: 0 1px 10px 0 var(--azul-escuro);
+
 
 }
 
@@ -37,4 +40,29 @@ header h3{
     padding-left: 0;
 }
 
+@media (max-width: 1120px){
+    .menu__list__item {
+        display: none;
+    }
+
+    .menu__list__item:last-child{
+        display: block;
+    }
+}
+
+@media (max-width: 768px){
+    .menu{
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    .menu__list__item:last-child{
+        display: none;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+}
 
