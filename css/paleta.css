@@ -1,0 +1,73 @@
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --azul-escuro: #03045E;
+    --azul-medio-3: #0077B6;
+    --azul-medio-2: #00B4D8;
+    --azul-medio-1: #90E0EF;
+    --azul-claro: #CAF0F8;
+    --destaque: #FB8500;
+
+    --bg-preto: #000000;
+    --bg-branco: #ffffff;
+    --bg-azul-escuro: #03045E;
+    --bg-azul-medio-3: #0077B6;
+    --bg-azul-medio-2: #00B4D8;
+    --bg-azul-medio-1: #90E0EF;
+    --bg-azul-claro: #CAF0F8;
+    --bg-destaque: #FB8500;
+}
+
+/*----------Cores para as fontes----------*/
+.cor_preto {
+    color: var(--preto);
+}
+.cor_branco {
+    color: var(--branco);
+}
+.cor_azul_escuro {
+    color: var(--azul-escuro);
+}
+.cor_azul_medio_3 {
+    color: var(--azul-medio-3);
+}
+.cor_azul_medio_2 {
+    color: var(--azul-medio-2);
+}
+.cor_azul_medio_1 {
+    color: var(--azul-medio-1);
+}
+.cor_azul_claro {
+    color: var(--azul-claro);
+}
+.cor_destaque {
+    color: var(--destaque);
+}
+
+/*----------Cores para o background----------*/
+
+.bg_cor_preto {
+    background-color: var(--preto);
+}
+.bg_cor_branco {
+    background-color: var(--branco);
+}
+.bg_cor_azul_escuro {
+    background-color: var(--azul-escuro);
+}
+.bg_cor_azul_medio_3 {
+    background-color: var(--azul-medio-3);
+}
+.bg_cor_azul_medio_2 {
+    background-color: var(--azul-medio-2);
+}
+.bg_cor_azul_medio_1 {
+    background-color: var(--azul-medio-1);
+}
+.bg_cor_azul_claro {
+    background-color: var(--azul-claro);
+}
+.bg_cor_destaque {
+    background-color: var(--destaque);
+}
+
